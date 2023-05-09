@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300;400;600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    border:0;
+    background: url(https://images.unsplash.com/photo-1591365437381-2db81d59f1e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: index 0;
+}
+
+.menu {
+    font-family: 'Alumni Sans', sans-serif;
+    padding: 15px;
+    font-size: 35px;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    border-radius: 15px;
+    opacity:1;
+    z-index: index 1;
+    }
+
+.menu a {
+    color: wheat;
+    text-decoration: none;
+    z-index: index 2;
+}
+
+.menu a:hover {
+    color: rgb(49, 211, 248);
+text-shadow:  1px 1px 2px rgb(3, 26, 30), 0 0 1em aqua;   
+}
+
+.overlay {
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+    background: rgba(40, 55, 65, 0.5);
+    z-index: 1;
+}
